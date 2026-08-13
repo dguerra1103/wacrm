@@ -6,6 +6,11 @@ runs as a non-root user) and a `docker-compose.yml` with a single
 (or self-hosted) Supabase project via env vars; no database container
 is included.
 
+Deploying on a platform that builds straight from the `Dockerfile`
+(Easypanel, Coolify, ...) instead of Compose? See
+[docs/easypanel.md](./easypanel.md) — same image, just mapped to that
+platform's build-arg / env-var UI.
+
 ## Quick start
 
 1. Copy the env template and fill it in:
